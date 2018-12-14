@@ -1,8 +1,4 @@
 [[constraint]]
-  name = "cloud.google.com/go"
-  version = "0.34.0"
-
-[[constraint]]
   name = "github.com/apache/thrift"
   revision = "24918abba929282"
   source = "github.com/apache/thrift"
