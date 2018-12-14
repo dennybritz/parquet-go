@@ -7,10 +7,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/xitongsys/parquet-go/ParquetFile"
-	"github.com/xitongsys/parquet-go/ParquetReader"
-	"github.com/xitongsys/parquet-go/ParquetWriter"
-	"github.com/xitongsys/parquet-go/parquet"
+	"github.com/dennybritz/parquet-go/ParquetFile"
+	"github.com/dennybritz/parquet-go/ParquetReader"
+	"github.com/dennybritz/parquet-go/ParquetWriter"
+	"github.com/dennybritz/parquet-go/parquet"
 )
 
 type Student struct {

@@ -6,12 +6,12 @@ import (
 	"sync"
 
 	"github.com/apache/thrift/lib/go/thrift"
-	"github.com/xitongsys/parquet-go/Common"
-	"github.com/xitongsys/parquet-go/Layout"
-	"github.com/xitongsys/parquet-go/Marshal"
-	"github.com/xitongsys/parquet-go/ParquetFile"
-	"github.com/xitongsys/parquet-go/SchemaHandler"
-	"github.com/xitongsys/parquet-go/parquet"
+	"github.com/dennybritz/parquet-go/Common"
+	"github.com/dennybritz/parquet-go/Layout"
+	"github.com/dennybritz/parquet-go/Marshal"
+	"github.com/dennybritz/parquet-go/ParquetFile"
+	"github.com/dennybritz/parquet-go/SchemaHandler"
+	"github.com/dennybritz/parquet-go/parquet"
 )
 
 type ParquetReader struct {
